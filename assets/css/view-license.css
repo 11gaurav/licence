@@ -1,0 +1,14 @@
+.box1{
+    
+    font-size: medium;
+    /* border: 2px solid black; */
+    width: 60%;
+    
+}
+.table td{
+    padding: 8px;
+
+}
+.table td input{
+    width: 90%;
+}

@@ -1,0 +1,77 @@
+#myTable table{
+    width:100%;
+    table-layout: fixed;
+}
+#myTable .tbl-header{
+    /*background-color: rgba(255,255,255,0.3);*/
+    padding-right:6px;
+}
+#myTable .tbl-content{
+    height:500px;
+    overflow-x:auto;
+    margin-top: 0px;
+}
+#myTable th{
+    /*        padding: 20px 15px;
+            text-align: left;
+            font-weight: 500;
+            font-size: 12px;
+            
+            text-transform: uppercase;*/
+    border:  1px solid grey!important;
+    padding:5px!important;
+    /*text-align: center;*/
+}
+#myTable td{
+    /*        padding: 15px;
+            text-align: left;
+            vertical-align:middle;*/
+    /*        font-weight: 300;
+            font-size: 12px;*/
+
+    border:  1px solid grey!important;
+    padding:5px!important;
+}
+
+/*bootbox css*/
+.topic{
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    word-wrap: break-word;
+}
+.bootbox .modal-header {
+    flex-direction: row-reverse;
+}
+
+.error{
+    color:red;
+}
+
+.admin-row {
+    background: green; 
+}
+
+.text-right{
+    text-align: right!important;
+}
+
+@media print {
+    tr:nth-child(even) {background: #CCC}
+}
+
+a.enquiry_title_view{
+    cursor: pointer;
+    text-decoration: underline!important;
+}
+
+
+/** css for model print data */
+
+body .modal.show .modal-dialog.custom_model_width{ max-width: 767px; }
+.custom_model_width table.blueTable tbody td { padding: 5px;}
+.custom_model_width table.blueTable tbody h4.page-title {
+    text-align: center;
+    text-transform: uppercase;
+}
+.text_wrap tr td{ word-break: break-all;}
