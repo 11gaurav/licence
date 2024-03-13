@@ -7,6 +7,8 @@
 
     class Ilicense extends MY_Controller
     {
+        public $session;
+        public $Ilicense_model;
         public function __construct()
         {
            
@@ -15,7 +17,6 @@
             $this->load->library('session');
         }
         public function AddIlicense(){
-            // p($this->session->set_userdata('user_id'));
             $data['plan_name'] = $this->load->Ilicense_model->plan_name();
             $this->load->view('IlicenseForm',$data);
         }
@@ -208,11 +209,9 @@
         }        
         public function check_plan_exist()
         {
-            
             $plan_name =$this->input->post('plan_name');
             
             $plan_exist_status = $this->load->Ilicense_model->check_plan_exist($plan_name);
-            
             if($plan_exist_status > 0){
                 echo "exist";
             }else{

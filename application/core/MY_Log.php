@@ -104,8 +104,9 @@ class MY_Log extends CI_Log
      *
      * @return bool
      */
-    public function write_log($level = 'error', $msg, $php_error = FALSE)
+    public function write_log($msg, $level = 'error', $php_error = FALSE)
     {
+
         $log_config = &get_log_config();
         if ($this->_enabled === FALSE)
         {
@@ -123,7 +124,6 @@ class MY_Log extends CI_Log
         {
             return FALSE;
         }
-        
         if ($level == 'INFO')
         {
             $filepath = $this->_log_path . 'info-log-' . date('Y-m-d') . '.php';

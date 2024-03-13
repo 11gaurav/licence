@@ -8,7 +8,23 @@ class User extends MY_Controller
 {
 
     private $_users_listing_headers = 'users_listing_headers';
+    public $benchmark;
+    public $hooks;
+    public $config;
+    public $log;
+    public $utf8;
+    public $uri;
+    public $exceptions;
+    public $router;
+    public $output;
+    public $security;
+    public $input;
+    public $lang;
+    public $load;
+    public $session;
+    public $db;
 
+    
     public function __construct()
     {
         parent::__construct();

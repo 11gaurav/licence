@@ -8,6 +8,8 @@
     class Index extends MY_Controller
     {
 
+        public $session;
+        
         public function __construct()
         {
             parent::__construct();

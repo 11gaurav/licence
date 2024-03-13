@@ -514,14 +514,14 @@ if ( ! function_exists('log_message'))
 	function log_message($level, $message)
 	{
 		static $_log;
-
+		
 		if ($_log === NULL)
 		{
 			// references cannot be directly assigned to static variables, so we use an array
 			$_log[0] =& load_class('Log', 'core');
 		}
 
-		$_log[0]->write_log($level, $message);
+		$_log[0]->write_log($message, $level);
 	}
 }
 

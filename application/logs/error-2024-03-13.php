@@ -1,0 +1,23 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2024-03-13 00:05:22 --> Could not find the language line "errorEmailRequired"
+ERROR - 2024-03-13 00:05:22 --> Could not find the language line "errorValidEmail"
+ERROR - 2024-03-13 00:05:22 --> Could not find the language line "errorEmailRequired"
+ERROR - 2024-03-13 00:05:22 --> Could not find the language line "errorValidEmail"
+ERROR - 2024-03-13 00:05:35 --> Could not find the language line "errorEmailRequired"
+ERROR - 2024-03-13 00:05:35 --> Could not find the language line "errorValidEmail"
+ERROR - 2024-03-13 00:05:36 --> Could not find the language line "errorEmailRequired"
+ERROR - 2024-03-13 00:05:36 --> Could not find the language line "errorValidEmail"
+ERROR - 2024-03-13 00:06:18 --> Could not find the language line "errorEmailRequired"
+ERROR - 2024-03-13 00:06:18 --> Could not find the language line "errorValidEmail"
+ERROR - 2024-03-13 00:06:18 --> Could not find the language line "errorEmailRequired"
+ERROR - 2024-03-13 00:06:18 --> Could not find the language line "errorValidEmail"
+ERROR - 2024-03-13 00:36:44 --> Could not find the language line "errorEmailRequired"
+ERROR - 2024-03-13 00:36:44 --> Could not find the language line "errorValidEmail"
+ERROR - 2024-03-13 00:36:44 --> Could not find the language line "errorEmailRequired"
+ERROR - 2024-03-13 00:36:44 --> Could not find the language line "errorValidEmail"
+ERROR - 2024-03-13 00:40:19 --> Severity: error --> Exception: Call to undefined function mysqli_init() /var/www/html/work/elicense/system/database/drivers/mysqli/mysqli_driver.php 135
+ERROR - 2024-03-13 19:04:30 --> Could not find the language line "errorEmailRequired"
+ERROR - 2024-03-13 19:04:30 --> Could not find the language line "errorValidEmail"
+ERROR - 2024-03-13 19:04:31 --> Could not find the language line "errorEmailRequired"
+ERROR - 2024-03-13 19:04:31 --> Could not find the language line "errorValidEmail"

@@ -24,7 +24,7 @@
              *
              * */
             $requestType = $this->input->server('HTTP_X_REQUESTED_WITH');
-            $this->ajaxRequest = strtolower($requestType) == 'xmlhttprequest';
+            $this->ajaxRequest = strtolower($requestType ?? "") == 'xmlhttprequest';
             /**
              * set the default template as blank when the request type is ajax
              */

@@ -17,6 +17,7 @@
     class AdminTemplate extends Template
     {
 
+        public $_CI;
         public function __construct()
         {
             parent::__construct();

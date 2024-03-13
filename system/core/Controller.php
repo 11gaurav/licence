@@ -63,6 +63,25 @@ class CI_Controller {
 	 *
 	 * @return	void
 	 */
+	public $benchmark;
+	public $hooks;
+	public $config;
+	public $log;
+	public $utf8;
+	public $uri;
+	public $router;
+	public $output;
+	public $security;
+	public $input;
+	public $lang;
+	public $load;
+	public $db;
+	public $form;
+	public $form_validation;
+	public $commonlib;
+	public $User_model;
+	public $commonlibrary;
+
 	public function __construct()
 	{
 		self::$instance =& $this;

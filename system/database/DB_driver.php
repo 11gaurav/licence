@@ -362,6 +362,7 @@ abstract class CI_DB_driver {
 	 * @param	array	$params
 	 * @return	void
 	 */
+	public $failover;
 	public function __construct($params)
 	{
 		if (is_array($params))
